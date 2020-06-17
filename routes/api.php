@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 //     return $request->user();
 // });
 //Auth
-Route::post('auth', 'User\Auth@index');
+Route::post('auth', 'Auth@index');
 Route::post('checkversion', 'Version@index');
 
 //Register
